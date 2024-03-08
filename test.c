@@ -3,9 +3,11 @@
 //
 #include <stdio.h>
 
-#
+
 int main(){
-    printf(" v edfe "+ 7);
+    char a ='d';
+    size_t n = sizeof(a);
+    printf("%d",n );
 
 
 }
