@@ -34,7 +34,7 @@ int main() {
 
 
 int resto_in_monete(int resto, int n, int valori[], int numeromonete[]) {
-    for (int i = n; i > 0; i--) {
+    for (int i = n; i => 0; i--) {
         numeromonete[i] = resto / valori[i];
         printf("%d\n", numeromonete[i]);
         resto = resto % valori[i];
