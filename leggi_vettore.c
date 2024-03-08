@@ -26,5 +26,5 @@ int *leggi_vettore(void) {
     }
 
     // Restituzione dell'array
-    return array;
+    return &array;
 }
