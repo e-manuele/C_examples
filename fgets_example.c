@@ -4,7 +4,7 @@
 #include <stdio.h>
 #define MAX 9
 
-void main(){
+int main(){
     char s[MAX];
     FILE *fptr;
 
@@ -18,4 +18,5 @@ void main(){
     }
 
     fclose(fptr);
+    return 0;
 }

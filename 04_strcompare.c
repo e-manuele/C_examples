@@ -29,7 +29,6 @@ int main() {
 int strcompare(char a[], char b[]) {
     int i = 0, j = 0;
     while (a[i] != '\0' && b[i] != '\0' && a[i] == b[i] && a[i] != '\n' && b[i] != '\n') {
-        //printf("a = %c ,b = %c ,int i: %d \n" ,a[i] , b[i], i);
         i++;
     }
     if (a[i] < b[i]) {
@@ -37,7 +36,7 @@ int strcompare(char a[], char b[]) {
     } else if (a[i] > b[i]) {
         j = 1;
     }
-    //printf("a = %c ,b = %c ,int i: %d \n" ,a[i] , b[i], i);
+
 
     return j;
 }

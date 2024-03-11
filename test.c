@@ -5,9 +5,8 @@
 
 
 int main(){
-    char a ='c';
-    char b = '\0';
-    int f =  a > b;
+
+    int f =  1;
     printf("%d",f);
     return 0;
 

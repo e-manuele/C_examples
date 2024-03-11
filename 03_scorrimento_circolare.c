@@ -2,7 +2,8 @@
 // Created by Emanuele on 01/03/2024.
 //
 #include <stdio.h>
-#include <stdlib.h>
+
+void scorrimento_circolare(int v[], int dim);
 
 int main() {
     int dimv;
@@ -19,9 +20,8 @@ int main() {
 }
 
 void scorrimento_circolare(int v[], int dim) {
-    int ultimo = v[dim-1];
+    int ultimo = v[dim - 1];
     for (int i = dim; i > 0; i--) {
-        //printf(" scambio %d con %d", v[i], v[i - 1]);
         v[i] = v[i - 1];
     }
     v[0] = ultimo;
