@@ -22,7 +22,7 @@ int main() {
 }
 
 
-void strcatenate(char t[], char s[]) {
+void strcatenate (char t[], char s[]) {
     int i = 0, j = 0;
 
     while (t[i] != '\0') {
