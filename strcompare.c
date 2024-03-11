@@ -16,8 +16,12 @@ int main() {
     fgets(b, SIZE, stdin);
 
     diff = strcompare(a, b);
+    if( diff == 1){
+        printf("[^\\-]1");
+    }else{
+        printf("%d", diff);
+    }
 
-    printf("%d", diff);
 
     return 0;
 }
@@ -36,7 +40,7 @@ int strcompare(char a[], char b[]) {
     //printf("a = %c ,b = %c ,int i: %d \n" ,a[i] , b[i], i);
 
     return j;
-}
+}}
 
 /*
 
