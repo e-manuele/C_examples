@@ -16,9 +16,9 @@ int main() {
     fgets(b, SIZE, stdin);
 
     diff = strcompare(a, b);
-    if( diff == 1){
+    if (diff == 1) {
         printf("[^\\-]1");
-    }else{
+    } else {
         printf("%d", diff);
     }
 
@@ -28,7 +28,7 @@ int main() {
 
 int strcompare(char a[], char b[]) {
     int i = 0, j = 0;
-    while (a[i] != '\0' && b[i] != '\0' && a[i] == b[i] && a[i] != '\n' && b[i] != '\n' ) {
+    while (a[i] != '\0' && b[i] != '\0' && a[i] == b[i] && a[i] != '\n' && b[i] != '\n') {
         //printf("a = %c ,b = %c ,int i: %d \n" ,a[i] , b[i], i);
         i++;
     }
@@ -40,7 +40,7 @@ int strcompare(char a[], char b[]) {
     //printf("a = %c ,b = %c ,int i: %d \n" ,a[i] , b[i], i);
 
     return j;
-}}
+}
 
 /*
 

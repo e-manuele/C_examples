@@ -5,9 +5,10 @@
 
 
 int main(){
-    char a ='d';
-    size_t n = sizeof(a);
-    printf("%d",n );
-
+    char a ='c';
+    char b = '\0';
+    int f =  a > b;
+    printf("%d",f);
+    return 0;
 
 }
