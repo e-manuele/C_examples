@@ -27,18 +27,18 @@ int main() {
 }
 
 int strcompare(char a[], char b[]) {
-    int i = 0, j = 0;
+    int i = 0;
     while (a[i] != '\0' && b[i] != '\0' && a[i] == b[i] && a[i] != '\n' && b[i] != '\n') {
         i++;
     }
     if (a[i] < b[i]) {
-        j = -1;
+        return -1;
     } else if (a[i] > b[i]) {
-        j = 1;
+        return 1;
     }
 
 
-    return j;
+    return 0;
 }
 
 /*

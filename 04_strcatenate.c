@@ -12,6 +12,7 @@ int main() {
 
     fgets(t, SIZE, stdin);
 
+
     fgets(s, SIZE, stdin);
 
     strcatenate(t, s);
@@ -22,7 +23,7 @@ int main() {
 }
 
 
-void strcatenate (char t[], char s[]) {
+void strcatenate(char t[], char s[]) {
     int i = 0, j = 0;
 
     while (t[i] != '\0') {
@@ -33,7 +34,7 @@ void strcatenate (char t[], char s[]) {
         t[i + j - 1] = s[j];
         j++;
     }
-    t[i + j - 1] = '\0';
+    t[i + j ] = '\0';
 }
 
 

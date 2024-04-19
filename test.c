@@ -1,13 +1,13 @@
-//
-// Created by Emanuele on 01/03/2024.
-//
 #include <stdio.h>
+#include <string.h>
+#include "leggi_vettore.c"
 
 
-int main(){
 
-    int f =  1;
-    printf("%d",f);
+int main() {
+    if ("DIAO"){
+        puts("SKJCNALSJN");
+    }
+
     return 0;
-
 }
